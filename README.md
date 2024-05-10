@@ -4,7 +4,7 @@ U-Knob力反馈智能旋钮
 
 ### 3D CAD
 
-<img src="E:\Projects\VSCodeProjects\U-Knob-master\U-Knob_PNG\3d.gif" width="50%" height="50%" alt="3d" align=center />
+<img src="E:\Projects\VSCodeProjects\U-Knob-master\u-knob_png\3d.gif" width="50%" height="50%" alt="3d" align=center />
 
 ### BOM
 
