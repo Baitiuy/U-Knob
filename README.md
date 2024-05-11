@@ -65,7 +65,7 @@ UI 设计工具：
 - [SimpleFOCStudio](https://github.com/JorgeMaker/SimpleFOCStudio)
 - 7 种旋钮模式：边界限制、棘轮、回弹等模式的组合
 
-## X-TRACK
+## MTQQ
 
 ### 消息通信机制
 
@@ -79,7 +79,7 @@ UI 设计工具：
 
 ## 智能控制
 
-- Surface Dial
+- Surface Dial 
 - U-Knob 通过 MQTT 接入 Home Assistant，可实现控制接入 HASS 的设备
 - 按键按压振动反馈、屏幕亮度调节、WiFi 和 MQTT 的 Web 配置
 - 电源管理（电池管理、系统深度休眠、自动熄屏）
