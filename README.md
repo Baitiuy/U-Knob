@@ -32,7 +32,7 @@ U-Knob力反馈智能旋钮
 
 # （Option）修改 config.h 文件的 MQTT_HOST 为你的名字
 # 该宏用来附带在 MQTT Topic 中
-#define MQTT_HOST               "dingmos"      
+#define MQTT_HOST               "baitiuy"      
 ```
 
 2. 选择是否使用 MQTT 功能

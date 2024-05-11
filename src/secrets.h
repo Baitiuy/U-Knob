@@ -9,5 +9,5 @@
 #define MQTT_USER "mqttuser"
 #define MQTT_PASSWORD "mqttpassword"
 
-#define HOST               "dingmos"         // owner 
+#define HOST               "baitiuy"         // owner 
 #define MQTT_COMMAND_TOPIC "home"

@@ -33,7 +33,7 @@ void MenuView::Create(lv_obj_t* root)
 		"Surface Dial"
 		"Control\n"
 		"Your PC\n"
-		"with X-Knob\n"
+		"with U-Knob\n"
 	);
 
 	Item_Create(

@@ -24,10 +24,10 @@
 #define __VERSION_H
 
 /* Firmware Version */
-#define VERSION_FIRMWARE_NAME   "x-knob"
-#define VERSION_SOFTWARE        "v1.3.1"
+#define VERSION_FIRMWARE_NAME   "U-knob"
+#define VERSION_SOFTWARE        "v1.2"
 #define VERSION_HARDWARE        "v1.1"
-#define VERSION_AUTHOR_NAME     "dingmos"
+#define VERSION_AUTHOR_NAME     "Kuyu"
 
 /* Number to string macro */
 #define _VERSION_NUM_TO_STR_(n)  #n

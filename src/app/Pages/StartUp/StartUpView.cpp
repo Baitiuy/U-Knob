@@ -23,7 +23,7 @@ void StartupView::Create(lv_obj_t *root)
     lv_obj_t *label = lv_label_create(cont);
     lv_obj_set_style_text_font(label, &lv_font_montserrat_26, 0);
     lv_obj_set_style_text_color(label, lv_color_white(), 0);
-    lv_label_set_text(label, "X-Knob");
+    lv_label_set_text(label, "U-Knob");
     lv_obj_center(label);
     ui.labelLogo = label;
 
