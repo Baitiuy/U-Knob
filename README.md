@@ -4,9 +4,11 @@ U-Knob力反馈智能旋钮
 
 ### 3D CAD
 
-<img src="E:\Projects\VSCodeProjects\U-Knob-master\u-knob_png\3d.gif" width="50%" height="50%" alt="3d" align=center />
+<img src="u-knob_png\3d.gif" width="50%" height="50%" alt="3d" align=center />
 
 ### BOM
+
+[BOM]: u-knob_png\U-Knob_Bom.xlsx
 
 主要硬件列表：
 
@@ -19,44 +21,42 @@ U-Knob力反馈智能旋钮
 
 # Get Started
 
-基本环境：
+1. 基本环境
 
-- VScode + PlatformIO
-- [arduino-esp32](https://github.com/espressif/arduino-esp32) v2.0.14
+   -  VScode + PlatformIO
+   - [arduino-esp32](https://github.com/espressif/arduino-esp32) v2.0.14
 
-1. 基本配置
+2. 基本环境
 
-```
-# 使用 PlatformIO 打开 U-Knob-master 工程
-# 在src/secrets.h下修改相关配置：WiFi 密码，MQTT Server 等
+   ```
+   # 使用 PlatformIO 打开 U-Knob-master 工程
+   # 在src/secrets.h下修改相关配置：WiFi 密码，MQTT Server 等
+   
+   # （Option）修改 config.h 文件的 MQTT_HOST 为你的名字
+   # 该宏用来附带在 MQTT Topic 中
+   #define MQTT_HOST               "baitiuy"      
+   ```
 
-# （Option）修改 config.h 文件的 MQTT_HOST 为你的名字
-# 该宏用来附带在 MQTT Topic 中
-#define MQTT_HOST               "baitiuy"      
-```
+3. 基本配置
 
-2. 选择是否使用 MQTT 功能
+   修改 platform.ini 文件来禁用 MQTT 功能
 
-修改 platform.ini 文件来禁用 MQTT 功能
+   ```
+   -DXK_MQTT=0 
+   ```
 
-```
--DXK_MQTT=0 
-```
+   这种方式将保留 Smart Home(S-Home)的 UI 供玩耍，但不会连接 WiFi 和调用 MQTT 发送消息。
 
-这种方式将保留 Smart Home(S-Home)的 UI 供玩耍，但不会连接 WiFi 和调用 MQTT 发送消息。
+4. 3. 编译 && flash
 
-3. 编译 && flash && enjoy 
 
-关于固件下载的**注意事项** ：
 
-- ESP32-S3 支持 USB 下载，可以在不拆开 U-knob 的情况下直接升级固件
-- 直接使用 Release 中的固件，flash 是需要偏移地址 `0x10000`，主要原因是 pio 编译出来的固件只包含 app 部分，而不含 bootloader 等部分。
 
 # 功能实现
 
 ## LVGL
 
-UI 设计工具：
+### UI 设计工具：
 
 - [NXP GUI Guider](https://www.nxp.com/design/software/development-software/gui-guider:GUI-GUIDER)
 
