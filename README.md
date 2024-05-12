@@ -47,7 +47,7 @@ U-Knob力反馈智能旋钮
 
    这种方式将保留 Smart Home(S-Home)的 UI 供玩耍，但不会连接 WiFi 和调用 MQTT 发送消息。
 
-4. 3. 编译 && flash
+4. 编译 && flash
 
 
 
