@@ -1,11 +1,6 @@
 # U-Knob
 U-Knob是一款小巧便携的力反馈智能旋钮，你不仅可以自主选择旋钮模式，还可以用它实现PC控制、智能家居控制等。
 
-
-### 3D CAD
-
-<img src="u-knob_png\3d.gif" width="50%" height="50%" alt="3d" align=center />
-
 ### BOM
 
 [BOM]: u-knob_png\U-Knob_Bom.xlsx
