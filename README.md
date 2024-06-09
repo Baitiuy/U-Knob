@@ -86,6 +86,6 @@ U-Knob是一款小巧便携的力反馈智能旋钮，你不仅可以自主选�
 - [smart_knob](https://github.com/scottbez1/smartknob)
 - [Super knob](https://gitee.com/wenzhengclub/super_knob)
 - [X-TRACK](https://github.com/FASTSHIFT/X-TRACK)
-- [X-Knob]([https://https://github.com/SmallPond/X-Knob])
+- [X-Knob](https://https://github.com/SmallPond/X-Knob)
 - [Peak](https://github.com/peng-zhihui/Peak)
 - [xiaomi_miot_raw](https://github.com/ha0y/xiaomi_miot_raw)
