@@ -79,3 +79,13 @@ U-Knob是一款小巧便携的力反馈智能旋钮，你不仅可以自主选�
 - 按键按压振动反馈、屏幕亮度调节、WiFi 和 MQTT 的 Web 配置
 - 电源管理（电池管理、系统深度休眠、自动熄屏）
 - 支持 OTA 升级
+
+# 参考项目
+- [Hardware: Super Dial 电机旋钮屏](https://oshwhub.com/45coll/a2fff3c71f5d4de2b899c64b152d3da5)
+- [Firmware: Super Dial 电机旋钮屏-gitee](https://gitee.com/coll45/super-dial-motor-knob-screen)
+- [smart_knob](https://github.com/scottbez1/smartknob)
+- [Super knob](https://gitee.com/wenzhengclub/super_knob)
+- [X-TRACK](https://github.com/FASTSHIFT/X-TRACK)
+- [X-Knob]([https://https://github.com/SmallPond/X-Knob])
+- [Peak](https://github.com/peng-zhihui/Peak)
+- [xiaomi_miot_raw](https://github.com/ha0y/xiaomi_miot_raw)
